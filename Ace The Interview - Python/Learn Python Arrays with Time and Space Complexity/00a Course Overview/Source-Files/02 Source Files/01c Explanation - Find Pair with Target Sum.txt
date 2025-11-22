@@ -1,0 +1,72 @@
+Find Pair 
+with Target Sum
+{ ? }
+
+1
+2
+3
+4
+6
+target=6
+Current sum: 0
+Left: 0
+Right: 4
+
+1
+2
+3
+4
+6
+target=6
+Current sum: 7
+Left: 0
+Right: 4
+Check if current sum == target
+
+1
+2
+3
+4
+6
+target=6
+Current sum: 7
+Left: 0
+Right: 4
+If sum is too small, go right.
+If sum is too large, go left.
+
+1
+2
+3
+4
+6
+target=6
+Current sum: 5
+Left: 0
+Right: 3
+Check if current sum == target
+
+1
+2
+3
+4
+6
+target=6
+Current sum: 5
+Left: 0
+Right: 3
+If sum is too small, go right.
+If sum is too large, go left.
+
+1
+2
+3
+4
+6
+target=6
+Current sum: 6
+Left: 1
+Right: 3
+
+Time complexity O(N)
+Space complexity O(1)

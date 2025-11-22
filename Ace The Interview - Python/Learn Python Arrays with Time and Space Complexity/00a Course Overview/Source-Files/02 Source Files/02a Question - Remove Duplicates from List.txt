@@ -1,0 +1,11 @@
+Remove Duplicates from List
+{ ? }
+
+Given an array of sorted numbers, remove all duplicates from it.
+You should not use any extra space.
+After removing the duplicates in-place, return the new length of the array. 
+
+
+Input: [2, 2, 2, 11]
+Output: 2
+Two elements remaining after removing the duplicates.

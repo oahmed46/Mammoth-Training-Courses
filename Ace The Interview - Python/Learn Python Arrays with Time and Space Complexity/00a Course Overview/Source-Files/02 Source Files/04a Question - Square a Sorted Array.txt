@@ -1,0 +1,8 @@
+Square a Sorted Array
+{ ? }
+
+Given a sorted array, create a new array containing squares of all the number of the input array in the sorted order. 
+
+
+Input: [-1, 2, 2, 5, 7]
+Output: [1, 4, 4, 25, 49] 

@@ -1,0 +1,128 @@
+Find Smallest Subarray 
+with Given Sum
+{ ? }
+
+2
+1
+5
+2
+3
+S = 7
+Min length: infinity
+Window sum: 0
+
+2
+1
+5
+2
+3
+S = 7
+Min length: infinity
+Window sum: 2
+
+2
+1
+5
+2
+3
+S = 7
+Min length: infinity
+Window sum: 3
+
+2
+1
+5
+2
+3
+S = 7
+Min length: infinity
+Window sum: 8
+While >=S 
+
+2
+1
+5
+2
+3
+S = 7
+Min length: infinity
+Window sum: 8
+Find min of min length and current index - start index + 1 
+
+2
+1
+5
+2
+3
+S = 7
+Min length: 3
+Window sum: 8 - 2 = 6
+Subtract window start 
+
+2
+1
+5
+2
+3
+S = 7
+Min length: 3
+Window sum: 8
+While >=S 
+
+2
+1
+5
+2
+3
+S = 7
+Min length: 3
+Window sum: 8
+Find min of min length and current index - start index + 1 
+
+2
+1
+5
+2
+3
+S = 7
+Min length: 3
+Window sum: 8 - 1 = 7
+Subtract window start 
+
+2
+1
+5
+2
+3
+S = 7
+Min length: 3
+Window sum: 7
+Find min of min length and current index - start index + 1 
+
+2
+1
+5
+2
+3
+S = 7
+Min length: 2
+Window sum: 10
+While >=S 
+
+2
+1
+5
+2
+3
+S = 7
+Min length: 2
+Window sum: 10
+Find min of min length and current index - start index + 1 
+
+Time complexity O(N)
+The outer for loop runs for all elements.
+Inner while loop processes each element only once
+Time complexity of the algorithm will be O(N+N) which is asymptotically equivalent to O(N). 
+
+ 
+Space complexity O(1)

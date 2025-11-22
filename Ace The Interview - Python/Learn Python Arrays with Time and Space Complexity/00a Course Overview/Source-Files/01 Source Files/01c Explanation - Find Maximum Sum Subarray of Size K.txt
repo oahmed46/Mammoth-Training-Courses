@@ -1,0 +1,93 @@
+Maximum Sum Subarray 
+of Size K
+
+{ ? }
+
+2
+6
+43
+4
+5
+k = 3
+Max sum: 0
+Window sum: 0
+
+2
+6
+43
+4
+5
+k = 3
+Max sum: 0
+Window sum: 2
+
+2
+6
+43
+4
+5
+k = 3
+Max sum: 0
+Window sum: 8
+
+2
+6
+43
+4
+5
+k = 3
+Max sum: 0
+Window sum: 51
+Compare 
+
+2
+6
+43
+4
+5
+k = 3
+Max sum: 51
+Window sum: 51 - 2 = 49
+Subtract window start 
+
+2
+6
+43
+4
+5
+k = 3
+Max sum: 51
+Window sum: 53
+Compare 
+
+2
+6
+43
+4
+5
+k = 3
+Max sum: 53
+Window sum: 53 - 6 = 47
+Subtract window start 
+
+2
+6
+43
+4
+5
+k = 3
+Max sum: 53
+Window sum: 47 + 5 = 52  
+
+2
+6
+43
+4
+5
+k = 3
+Max sum: 53
+Window sum: 52  
+Compare 
+
+Time complexity O(N)
+Space complexity O(1)

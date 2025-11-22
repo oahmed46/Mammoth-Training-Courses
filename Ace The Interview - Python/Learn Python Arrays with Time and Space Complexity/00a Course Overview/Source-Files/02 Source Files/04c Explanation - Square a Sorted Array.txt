@@ -1,0 +1,256 @@
+Square a Sorted Array
+{ ? }
+
+-1
+2
+2
+5
+7
+Highest Square Index = 4
+Left index: 0 						  Right index: 4
+Left square: 0				     Right square: 0
+0 
+0 
+ 0
+ 0
+0 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 4
+Left index: 0 						  Right index: 4
+Left square: 1				     Right square: 0
+0 
+0 
+ 0
+ 0
+0 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 4
+Left index: 0 						  Right index: 4
+Left square: 1				   Right square: 49
+0 
+0 
+ 0
+ 0
+0 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 4
+Put larger square into highest square index
+Left square: 1				   Right square: 49
+0 
+0 
+ 0
+ 0
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 4
+Left index: 0 						  Right index: 3
+Increment / decrement that index
+0 
+0 
+ 0
+ 0
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 3
+Left index: 0 						  Right index: 3
+Decrement highest square index
+0 
+0 
+ 0
+ 0
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 3
+Left index: 0 						  Right index: 3
+Left square: 1				   Right square: 49
+0 
+0 
+ 0
+ 0
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 3
+Left index: 0 						  Right index: 3
+Left square: 1				   Right square: 25
+0 
+0 
+ 0
+ 0
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 3
+Put larger square into highest square index
+Left square: 1				   Right square: 25
+0 
+0 
+ 0
+25
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 3
+Left index: 0 						  Right index: 2
+Increment / decrement that index
+0 
+0 
+ 0
+ 25
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 2
+Left index: 0 						  Right index: 2
+Decrement highest square index
+0 
+0 
+ 0
+ 25
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 2
+Left index: 0 						  Right index: 2
+Left square: 1				   Right square: 25
+0 
+0 
+ 0
+ 25
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 2
+Left index: 0 						  Right index: 2
+Left square: 1		  		     Right square: 4
+0 
+0 
+ 0
+ 25
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 1
+Left index: 0 						  Right index: 1
+Left square: 1		  		     Right square: 4
+0 
+0 
+ 4
+ 25
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 1
+Left index: 0 						  Right index: 1
+Left square: 1		  		     Right square: 4
+0 
+4 
+ 4
+ 25
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 0
+Left index: 0 						  Right index: 0
+Left square: 1		  		     Right square: 4
+0 
+4 
+ 4
+ 25
+49 
+
+-1
+2
+2
+5
+7
+Highest Square Index = 0
+Left index: 0 						  Right index: 0
+Left square: 1		  		     Right square: 4
+1 
+4 
+ 4
+ 25
+49 
+
+-1
+2
+2
+5
+7
+ 
+ 
+1 
+4 
+ 4
+ 25
+49 
+
+Time complexity O(N)
+Space complexity O(N)
